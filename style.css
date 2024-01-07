@@ -45,7 +45,7 @@ padding: 15px 35px;
     background-color:#FFF8F3;
     background-image:url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right;}
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -58,7 +58,7 @@ padding: 15px 35px;
 }
 .banner-greetings{
     font-size: 45px;
-    color:  #47474;
+    color:#757575;
     margin-bottom: 0;
 }
 .banner-title{
@@ -75,7 +75,7 @@ padding: 15px 35px;
 .about{
     padding: 130px;
     border-radius: 10px;
-background: #FFF8F3;
+background-color: #FFF8F3;
 margin: 130px 0;
 }
 
@@ -86,8 +86,19 @@ margin: 130px 0;
 text-align: center;
 font-size: 18px;
 }
-.section-title{font-size:35px;font-weight:700;text-align: center; color: #181818;}
+.section-title{font-size:35px;
+    font-weight:700;
+    text-align: center;
+     color: #181818;}
 
-.m{
+main{
     max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
